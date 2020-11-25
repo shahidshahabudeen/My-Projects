@@ -3,7 +3,7 @@ import cv2
 import face_recognition
 import os
 
-path = 'ImagesAttendance'
+path = 'ImagesList'
 images = []
 classNames = []
 
