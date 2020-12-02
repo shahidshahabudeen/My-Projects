@@ -1,7 +1,10 @@
 import cv2
 import pytesseract
+
+# pytesseract .exe file location
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
+# add image to recognize 
 img = cv2.imread('Images/1.jpg')
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 
